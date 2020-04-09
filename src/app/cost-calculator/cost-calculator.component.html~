@@ -29,7 +29,7 @@
 			</div>
 	
 			<div class='column'>
-				<input type='number' name='light-fighter' [(ngModel)]='numLightFighter' (input)='calculateTotalCost()'  >
+				<input type='number' name='light-fighter' [(ngModel)]='numLightFighter' (input)='calculateTotalCost()'>
 			</div>
 		</div>
 	
@@ -152,5 +152,6 @@
 		</div>
 	</div>
 
-
+	<button type='button'>Clear</button>
+	
 </form>

@@ -118,8 +118,28 @@ export class CostCalculatorComponent{
 			this.crystal += this.numDeathstar * 4000000;
 			this.deuterium += this.numDeathstar * 1000000;
 		}
+	}
+
+	clear(){
+		this.numSmallCargos = undefined;
+		this.numLargeCargos = undefined;
+		this.numLightFighter = undefined;
+		this.numHeavyFighter = undefined;
+		this.numCruiser = undefined;
+		this.numBattleship = undefined;
+		this.numBattlecruiser = undefined;
+		this.numBomber = undefined;
+		this.numDestructor = undefined;
+		this.numReaper = undefined;
+		this.numDeathstar = undefined;
+
+		this.metal = undefined; 
+		this.crystal = undefined; 
+		this.deuterium = undefined; 
 
 
 	}
+
+
 }
 
