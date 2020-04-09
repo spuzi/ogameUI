@@ -1,0 +1,156 @@
+<form id='form'>
+	<span id='title'>{{title}}</span>
+		<div id='ships'>
+	
+		<div class='row'>
+			<div class='column'>
+				<label>Small Cargo</label>
+			</div>
+	
+			<div class='column'>
+				<input type='number' name='small-cargo' [(ngModel)]='numSmallCargos'  (input)="calculateTotalCost()"> 
+			</div>
+	
+		</div>
+	
+		<div class='row'>
+			<div class='column'>
+				<label>Large Cargo</label>
+			</div>
+	
+			<div class='column'>
+				<input type='number' name='large-cargo' [(ngModel)]='numLargeCargos' (input)="calculateTotalCost()" >
+			</div>
+		</div>
+	
+		<div class='row'>
+			<div class='column'>
+				<label>Light Fighter</label>
+			</div>
+	
+			<div class='column'>
+				<input type='number' name='light-fighter' [(ngModel)]='numLightFighter' (input)='calculateTotalCost()'>
+			</div>
+		</div>
+	
+		<div class='row'>
+			<div class='column'>
+				<label>Heavy Fighter</label>
+			</div>
+	
+			<div class='column'>
+				<input type='number' name='heavy-fighter' [(ngModel)]='numHeavyFighter' (input)='calculateTotalCost()'  >
+			</div>
+		</div>
+	
+		<div class='row'>
+			<div class='column'>
+				<label>Cruiser</label>
+			</div>
+	
+			<div class='column'>
+				<input type='number' name='cruiser' [(ngModel)]='numCruiser' (input)='calculateTotalCost()'  >
+			</div>
+		</div>
+	
+		<div class='row'>
+			<div class='column'>
+				<label>Battleship</label>
+			</div>
+	
+			<div class='column'>
+			<input type='number' name='battle-ship' [(ngModel)]='numBattleship' (input)='calculateTotalCost()' >
+			</div>
+		</div>
+	
+		<div class='row'>
+			<div class='column'>
+				<label>Battlecruister</label>
+			</div>
+	
+			<div class='column'>
+				<input type='number' name='battle-cruiser' [(ngModel)]='numBattlecruiser' (input)='calculateTotalCost()' >
+			</div>
+		</div>
+	
+	
+		<div class='row'>
+			<div class='column'>
+				<label>Bomber</label>
+			</div>
+	
+			<div class='column'>
+				<input type='number' name='bomber' [(ngModel)]='numBomber' (input)='calculateTotalCost()' >
+			</div>
+		</div>
+	
+		<div class='row'>
+			<div class='column'>
+				<label>Destructor</label>
+			</div>
+	
+			<div class='column'>
+				<input type='number' name='destructor' [(ngModel)]='numDestructor' (input)='calculateTotalCost()' >
+			</div>
+		</div>
+	
+		
+		<div class='row'>
+			<div class='column'>
+				<label>Reaper</label>
+			</div>
+	
+			<div class='column'>
+				<input type='number' name='reaper' [(ngModel)]='numReaper' (input)='calculateTotalCost()' >
+			</div>
+		</div>
+	
+	
+		<div class='row'>
+			<div class='column'>
+				<label>Death Star</label>
+			</div>
+	
+			<div class='column'>
+				<input type='number' name='death-star' [(ngModel)]='numDeathstar' (input)='calculateTotalCost()'  >
+			</div>
+		</div>
+
+
+	</div>
+
+
+	<!-- RESOURCES -->
+	<div class='row'>
+		<div class='column'>
+			<label>Metal</label>
+		</div>
+
+		<div class='column'>
+			<span id='metal'>{{metal}}</span>
+		</div>
+	</div>
+
+
+	<div class='row'>
+		<div class='column'>
+			<label>Crystal</label>
+		</div>
+
+		<div class='column'>
+			<span id='crystal'>{{crystal}}</span>
+		</div>
+	</div>
+
+	<div class='row'>
+		<div class='column'>
+			<label>Deuterium</label>
+		</div>
+
+		<div class='column'>
+			<span id='deuterium'>{{deuterium}}</span>
+		</div>
+	</div>
+
+
+</form>

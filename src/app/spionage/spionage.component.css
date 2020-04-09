@@ -1,0 +1,15 @@
+#content-prueba{
+	border: solid;
+	float: left;
+	padding: 5px;
+	margin: 5px;
+}
+
+#title{
+	font-size:3vw
+}
+
+.input{
+	width:22px
+}
+

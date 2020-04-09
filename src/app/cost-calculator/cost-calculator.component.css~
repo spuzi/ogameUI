@@ -1,0 +1,30 @@
+#form{
+	border: solid;	
+	float: left;
+	margin: 5px;
+	padding: 5px;
+}
+
+#title{
+	font-size: 3vw;
+}
+
+#ships{
+	margin:5px;
+}
+
+#cost{
+	margin: 5px;
+}
+
+.row{
+	display:flex;
+}
+
+.column{
+	flex:50%;
+}
+
+input{
+	padding-right: 0px;
+}
